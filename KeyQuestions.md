@@ -1,5 +1,5 @@
 * Unit 1:
-*  Terminology and Notation
+**  Terminology and Notation
 Because of the hybrid parentry of data mining, its practitioners often
 use multiple terms to refer to the same thing. For example, in the
 machine learning (artificial intelligence) field, the variable being
