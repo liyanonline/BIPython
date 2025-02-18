@@ -1,4 +1,4 @@
-* Unit 1:Terminology and Notation
+# Unit 1:Terminology and Notation
 Because of the hybrid parentry of data mining, its practitioners often
 use multiple terms to refer to the same thing. For example, in the
 machine learning (artificial intelligence) field, the variable being
@@ -6,7 +6,7 @@ predicted is the output variable or target variable. To a statistician, it is
 the dependent variable or the response. Here is a summary of terms
 used:
 
-Algorithm A specific procedure used to implement a particular
+*Algorithm A specific procedure used to implement a particular
 data mining technique: classification tree, discriminant analysis,
 and the like.
 
@@ -15,6 +15,7 @@ Case see Observation.
 Categorical Variable A variable that takes on one of several
 fixed values, for example, a flight could be on-time, delayed, or
 canceled.
+
 Confidence A performance measure in association rules of the
 type “IF A and B are purchased, THEN C is also purchased.”
 Confidence is the conditional probability that C will be purchased
@@ -74,7 +75,7 @@ new data.
 Success Class The class of interest in a binary outcome (e.g.,
 purchasers in the outcome purchase/no purchase).
 
-Supervised Learning The process of providing an algorithm
+*Supervised Learning The process of providing an algorithm
 (logistic regression, regression tree, etc.) with records in which an
 output variable of interest is known and the algorithm “learns”
 how to predict this value with new records where the output is
@@ -82,18 +83,18 @@ unknown.
 
 Target see Response.
 
-Test Data (or Test Set) The portion of the data used only at the
+*Test Data (or Test Set) The portion of the data used only at the
 end of the model building and selection process to assess how well
 the final model might perform on new data.
 
-Training Data (or Training Set) The portion of the data used
+*Training Data (or Training Set) The portion of the data used
 to fit a model.
 
-Unsupervised Learning An analysis in which one attempts to
+*Unsupervised Learning An analysis in which one attempts to
 learn patterns in the data other than predicting an output value of
 interest.
 
-Validation Data (or Validation Set) The portion of the data
+*Validation Data (or Validation Set) The portion of the data
 used to assess how well the model fits, to adjust models, and to
 select the best model from among those that have been tried.
 Variable Any measurement on the records, including both the
