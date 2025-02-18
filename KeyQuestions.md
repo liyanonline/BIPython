@@ -6,7 +6,7 @@ predicted is the output variable or target variable. To a statistician, it is
 the dependent variable or the response. Here is a summary of terms
 used:
 
-*Algorithm A specific procedure used to implement a particular
+* Algorithm A specific procedure used to implement a particular
 data mining technique: classification tree, discriminant analysis,
 and the like.
 
@@ -75,7 +75,7 @@ new data.
 Success Class The class of interest in a binary outcome (e.g.,
 purchasers in the outcome purchase/no purchase).
 
-*Supervised Learning The process of providing an algorithm
+* Supervised Learning The process of providing an algorithm
 (logistic regression, regression tree, etc.) with records in which an
 output variable of interest is known and the algorithm “learns”
 how to predict this value with new records where the output is
@@ -83,18 +83,18 @@ unknown.
 
 Target see Response.
 
-*Test Data (or Test Set) The portion of the data used only at the
+* Test Data (or Test Set) The portion of the data used only at the
 end of the model building and selection process to assess how well
 the final model might perform on new data.
 
-*Training Data (or Training Set) The portion of the data used
+* Training Data (or Training Set) The portion of the data used
 to fit a model.
 
-*Unsupervised Learning An analysis in which one attempts to
+* Unsupervised Learning An analysis in which one attempts to
 learn patterns in the data other than predicting an output value of
 interest.
 
-*Validation Data (or Validation Set) The portion of the data
+* Validation Data (or Validation Set) The portion of the data
 used to assess how well the model fits, to adjust models, and to
 select the best model from among those that have been tried.
 Variable Any measurement on the records, including both the
