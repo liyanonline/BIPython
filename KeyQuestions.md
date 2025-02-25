@@ -99,3 +99,29 @@ used to assess how well the model fits, to adjust models, and to
 select the best model from among those that have been tried.
 Variable Any measurement on the records, including both the
 input (X) and the output (Y) variables.
+# Unit2: Ch2 Overview of the Data Mining Process
+ 1. Assuming that data mining techniques are to be used in the
+ following cases, identify whether the task required is supervised
+ or unsupervised learning.
+ a. Deciding whether to issue a loan to an applicant based on
+ demographic and financial data (with reference to a database
+ of similar data on prior customers).
+ b. In an online bookstore, making recommendations to
+ customers concerning additional items to buy based on the
+ buying patterns in prior transactions.
+ c. Identifying a network data packet as dangerous (virus, hacker
+ attack) based on comparison to other packets whose threat
+status is known.
+ d. Identifying segments of similar customers.
+ e. Predicting whether a company will go bankrupt based on
+ comparing its financial data to those of similar bankrupt and
+ nonbankrupt firms.
+ f. Estimating the repair time required for an aircraft based on a
+ trouble ticket.
+ g. Automated sorting of mail by zip code scanning.
+ h. Printing of custom discount coupons at the conclusion of a
+ grocery store checkout based on what you just bought and
+ what others have bought previously.
+ 2. Describe the difference in roles assumed by the validation
+ partition and the test partition.
+
