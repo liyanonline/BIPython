@@ -124,4 +124,8 @@ status is known.
  what others have bought previously.
  2. Describe the difference in roles assumed by the validation
  partition and the test partition.
-
+ 3. Two models are applied to a dataset that has been partitioned.
+ Model A is considerably more accurate than model B on the
+ training data, but slightly less accurate than model B on the
+ validation data. Which model are you more likely to consider for
+ final deployment?
