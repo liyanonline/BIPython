@@ -133,7 +133,7 @@ status is known.
 # Unit 3: Data Visualization
 3.6 Summary: Major Visualizations and
  Operations, by Data Mining Goal
- Prediction
+ * Prediction
  Plot outcome on the y-axis of boxplots, bar charts, and scatter
  plots.
  Study relation of outcome to categorical predictors via side-by
@@ -148,7 +148,7 @@ side boxplots, bar charts, and multiple panels.
  Use various aggregation levels and zooming to determine areas of
  the data with different behavior, and to evaluate the level of global
 vs. local patterns.
- Classification
+ * Classification
  Study relation of outcome to categorical predictors using bar
  charts with the outcome on the y-axis.
  Study relation of outcome to pairs of numerical predictors via
@@ -166,7 +166,7 @@ vs. local patterns.
  Use various aggregation levels and zooming to determine areas of
  the data with different behavior, and to evaluate the level of global
  vs. local patterns.
- Time Series Forecasting
+ * Time Series Forecasting
  Create line graphs at different temporal aggregations to determine
  types of patterns.
  Use zooming and panning to examine various shorter periods of
@@ -176,7 +176,7 @@ vs. local patterns.
  Identify missing values in the series (that will require handling).
  Overlay trend lines of different types to determine adequate
  modeling choices.
-Unsupervised Learning
+ * Unsupervised Learning
  Create scatter plot matrices to identify pairwise relationships and
  clustering of observations.
  Use heatmaps to examine the correlation table.
