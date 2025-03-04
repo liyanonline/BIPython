@@ -134,7 +134,7 @@ status is known.
 3.6 Summary: Major Visualizations and
  Operations, by Data Mining Goal
  * Prediction
- Plot outcome on the y-axis of boxplots, bar charts, and scatter
+ ** Plot outcome on the y-axis of boxplots, bar charts, and scatter
  plots.
  Study relation of outcome to categorical predictors via side-by
 side boxplots, bar charts, and multiple panels.
@@ -149,7 +149,7 @@ side boxplots, bar charts, and multiple panels.
  the data with different behavior, and to evaluate the level of global
 vs. local patterns.
  * Classification
- Study relation of outcome to categorical predictors using bar
+ ** Study relation of outcome to categorical predictors using bar
  charts with the outcome on the y-axis.
  Study relation of outcome to pairs of numerical predictors via
  color-coded scatter plots (color denotes the outcome).
@@ -177,7 +177,7 @@ vs. local patterns.
  Overlay trend lines of different types to determine adequate
  modeling choices.
  * Unsupervised Learning
- Create scatter plot matrices to identify pairwise relationships and
+ ** Create scatter plot matrices to identify pairwise relationships and
  clustering of observations.
  Use heatmaps to examine the correlation table.
  Use various aggregation levels and zooming to determine areas of
