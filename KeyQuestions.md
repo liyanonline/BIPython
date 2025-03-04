@@ -129,3 +129,58 @@ status is known.
  training data, but slightly less accurate than model B on the
  validation data. Which model are you more likely to consider for
  final deployment?
+
+# Unit 3: Data Visualization
+3.6 Summary: Major Visualizations and
+ Operations, by Data Mining Goal
+ Prediction
+ Plot outcome on the y-axis of boxplots, bar charts, and scatter
+ plots.
+ Study relation of outcome to categorical predictors via side-by
+side boxplots, bar charts, and multiple panels.
+ Study relation of outcome to numerical predictors via scatter
+ plots.
+ Use distribution plots (boxplot, histogram) for determining
+ needed transformations of the outcome variable (and/or
+ numerical predictors).
+ Examine scatter plots with added color/panels/size to determine
+ the need for interaction terms.
+ Use various aggregation levels and zooming to determine areas of
+ the data with different behavior, and to evaluate the level of global
+vs. local patterns.
+ Classification
+ Study relation of outcome to categorical predictors using bar
+ charts with the outcome on the y-axis.
+ Study relation of outcome to pairs of numerical predictors via
+ color-coded scatter plots (color denotes the outcome).
+ Study relation of outcome to numerical predictors via side-by-side
+ boxplots: Plot boxplots of a numerical variable by outcome. Create
+ similar displays for each numerical predictor. The most separable
+ boxes indicate potentially useful predictors.
+ Use color to represent the outcome variable on a parallel
+ coordinate plot.
+ Use distribution plots (boxplot, histogram) for determining
+ needed transformations of numerical predictor variables.
+ Examine scatter plots with added color/panels/size to determine
+ the need for interaction terms.
+ Use various aggregation levels and zooming to determine areas of
+ the data with different behavior, and to evaluate the level of global
+ vs. local patterns.
+ Time Series Forecasting
+ Create line graphs at different temporal aggregations to determine
+ types of patterns.
+ Use zooming and panning to examine various shorter periods of
+ the series to determine areas of the data with different behavior.
+ Use various aggregation levels to identify global and local
+ patterns.
+ Identify missing values in the series (that will require handling).
+ Overlay trend lines of different types to determine adequate
+ modeling choices.
+Unsupervised Learning
+ Create scatter plot matrices to identify pairwise relationships and
+ clustering of observations.
+ Use heatmaps to examine the correlation table.
+ Use various aggregation levels and zooming to determine areas of
+ the data with different behavior.
+ Generate a parallel coordinates plot to identify clusters of
+ observations.
