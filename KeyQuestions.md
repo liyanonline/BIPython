@@ -99,36 +99,13 @@ used to assess how well the model fits, to adjust models, and to
 select the best model from among those that have been tried.
 Variable Any measurement on the records, including both the
 input (X) and the output (Y) variables.
+
 # Unit2: Ch2 Overview of the Data Mining Process
- 1. Assuming that data mining techniques are to be used in the
- following cases, identify whether the task required is supervised
- or unsupervised learning.
- a. Deciding whether to issue a loan to an applicant based on
- demographic and financial data (with reference to a database
- of similar data on prior customers).
- b. In an online bookstore, making recommendations to
- customers concerning additional items to buy based on the
- buying patterns in prior transactions.
- c. Identifying a network data packet as dangerous (virus, hacker
- attack) based on comparison to other packets whose threat
-status is known.
- d. Identifying segments of similar customers.
- e. Predicting whether a company will go bankrupt based on
- comparing its financial data to those of similar bankrupt and
- nonbankrupt firms.
- f. Estimating the repair time required for an aircraft based on a
- trouble ticket.
- g. Automated sorting of mail by zip code scanning.
- h. Printing of custom discount coupons at the conclusion of a
- grocery store checkout based on what you just bought and
- what others have bought previously.
- 2. Describe the difference in roles assumed by the validation
- partition and the test partition.
- 3. Two models are applied to a dataset that has been partitioned.
- Model A is considerably more accurate than model B on the
- training data, but slightly less accurate than model B on the
- validation data. Which model are you more likely to consider for
- final deployment?
+* Data mining consists of supervised methods (Classification & Prediction) and unsupervised methods (Association Rules, Data Reduction, Data Exploration & Visualization)
+* Before algorithms can be applied, data must be explored and pre-processed
+* To evaluate performance and to avoid overfitting, data partitioning is used
+* Models are fit to the training partition and assessed on the validation and test partitions
+* Data mining methods are usually applied to a sample from a large database, and then the best model is used to score the entire database
 
 # Unit 3: Data Visualization
 * 3.6 Summary: Major Visualizations and Operations, by Data Mining Goal
@@ -161,6 +138,14 @@ status is known.
 * Data reduction is useful for compressing the information in the data into a smaller subset
 * Categorical variables can be reduced by combining similar categories
 * Principal components analysis transforms an original set of numerical data into a smaller set of weighted averages of the original data that contain most of the original information in less variables.
+
+# Unit 5: Performance Evaluation
+* Evaluation metrics are important for comparing across DM models, for choosing the right configuration of a specific DM model, and for comparing to the baseline (“no model”)
+* Major metrics: confusion matrix, error rate, predictive error
+* Other metrics when one class is more important
+** asymmetric costs
+** When important class is rare, use oversampling
+* In all cases, metrics computed from validation data
 
 
 
