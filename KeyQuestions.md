@@ -143,8 +143,8 @@ input (X) and the output (Y) variables.
 * Evaluation metrics are important for comparing across DM models, for choosing the right configuration of a specific DM model, and for comparing to the baseline (“no model”)
 * Major metrics: confusion matrix, error rate, predictive error
 * Other metrics when one class is more important
-** asymmetric costs
-** When important class is rare, use oversampling
+   * asymmetric costs
+   * When important class is rare, use oversampling
 * In all cases, metrics computed from validation data
 
 
