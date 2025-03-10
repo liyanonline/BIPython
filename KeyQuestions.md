@@ -154,4 +154,14 @@ status is known.
     * Create scatter plot matrices to identify pairwise relationships and clustering of observations.
     * Use heatmaps to examine the correlation table. Use various aggregation levels and zooming to determine areas of the data with different behavior.
     * Generate a parallel coordinates plot to identify clusters of observations.
-![image](https://github.com/user-attachments/assets/d4647b9b-7a41-4eb7-ac25-d89f25b2e27d)
+
+# Unit 4: Dimension Reduction
+* Data summarization is an important component of data exploration
+* Data summaries include numerical metrics (average, median, etc.) and graphical summaries
+* Data reduction is useful for compressing the information in the data into a smaller subset
+* Categorical variables can be reduced by combining similar categories
+* Principal components analysis transforms an original set of numerical data into a smaller set of weighted averages of the original data that contain most of the original information in less variables.
+
+
+
+
